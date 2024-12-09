@@ -34,18 +34,19 @@ import {
   telegram,
   twitter,
   yourlogo,
+  
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Our Apps",
+    url: "#apps",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "WORDS FROM US",
+    url: "#words",
   },
   {
     id: "2",
@@ -78,9 +79,11 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Smart conversations",
+  "Accurate translation",
+  "Reliable support",
+  "Effortless creation",
+  "Smooth connection",
 ];
 
 export const brainwaveServicesIcons = [
@@ -92,19 +95,11 @@ export const brainwaveServicesIcons = [
 ];
 
 export const roadmap = [
-  {
-    id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
-    colorful: true,
-  },
+
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    title: "Web Games",
+    text: "We aim to create engaging and interactive web games, blending fun with innovation to deliver an immersive gaming experience right from your browser",
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap2,
@@ -112,15 +107,15 @@ export const roadmap = [
   {
     id: "2",
     title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+    text: "Easily customize your chatbot's responses, style, and functionality to match your unique requirements. Transform your chatbot into a tailored assistant with personalized settings, interactive features, and seamless workflows. Adjust its design and behavior to deliver a customized user experience, enhancing performance with advanced options to suit your specific needs.",
     date: "May 2023",
-    status: "done",
+    status: "progress",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    title: "AI Tool Development with API Integration",
+    text: "Develop powerful AI tools by integrating APIs for seamless functionality, customization, and enhanced performance tailored to your specific needs.",
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap4,
@@ -128,21 +123,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "With intelligent automation and advanced security, it's the ideal solution for teams aiming to work more efficiently.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Effortless Integration",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Intelligent Automation",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Advanced Security"
   },
 ];
 
@@ -244,55 +239,53 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Flit Chatbot",
+    text: "Experience seamless communication with our intelligent AI chatbot. Whether you're seeking information, assistance, or a friendly conversation, our bot is designed to understand and respond to your needs effectively.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    url: "https://flit-chatbot.netlify.app/", // Added URL
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Singlish to Sinhala",
+    text: "Flit's Singlish to Sinhala tool converts text in seconds.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
+    url: "https://flit-converter.netlify.app/", // Added URL
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Multi-Language Translator",
+    text: "Flit’s AI-powered tool translates text between multiple languages in seconds, ensuring smooth and accurate communication",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
+    url: "https://flit-translator.netlify.app/", // Added URL
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Image Editor",
+    text: "Edit images effortlessly with the Flit Image Editor! Featuring intuitive tools, advanced filters, and seamless functionality, it's perfect for quick tweaks or professional-level enhancements.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
+    url: "https://flit-editor.netlify.app/", // Placeholder URL
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Text-to-Speech Converter",
+    text: "Transform text into natural, high-quality speech with the Flit Text-to-Speech Converter. Choose from a variety of voices and languages to bring your words to life effortlessly.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    url: "https://flit-speech.netlify.app/", // Placeholder URL
   },
 ];
+
 
 export const socials = [
   {

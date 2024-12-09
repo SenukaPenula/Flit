@@ -34,7 +34,7 @@ const Roadmap = () => (
                 </div>
                 <div className="relative z-1">
                   <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
-                    <Tagline>{item.date}</Tagline>
+                   
 
                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
                       <img
@@ -68,10 +68,30 @@ const Roadmap = () => (
         <Gradient />
       </div>
 
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/roadmap">Our roadmap</Button>
+      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20"> 
+
+        <Heading
+          tag="Privacy Policy / Terms and Conditions"
+           text="Check if any Issue"
+          />
+          </div>
+
+      <div className="flex justify-center ">
+        
+        
+        <Button href={"https://www.termsfeed.com/live/01133f4c-d7a0-4233-93fc-e930dd3bc246"}>Privacy Policy</Button>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <Button href="https://www.termsfeed.com/live/aef4ed65-c20e-4231-a3a3-c36c401d54bf">Terms and Condition</Button>
+         
+        </div>
       </div>
-    </div>
+
+      
+    
   </Section>
 );
 
